@@ -1,0 +1,10 @@
+# ignora .sql por padrão
+*.sql
+
+# permite a pasta dumps inteira
+!dumps/
+dumps/**
+
+# mas re-inclui explicitamente estes arquivos dentro de dumps
+!dumps/README.md
+!dumps/telemetria_db_latest.sql

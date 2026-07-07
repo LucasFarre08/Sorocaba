@@ -1,0 +1,12 @@
+python wialon_report_sql.py ^
+  --token "SEU_TOKEN" ^
+  --resource-id 400531375 ^
+  --template-id 92 ^
+  --object-id 401108156 ^
+  --from "2026-01-12 00:00:00" ^
+  --to "2026-01-12 23:59:59" ^
+  --mysql-host "127.0.0.1" ^
+  --mysql-user "root" ^
+  --mysql-pass "12345" ^
+  --mysql-db "telemetria_maersk" ^
+  --verbose
