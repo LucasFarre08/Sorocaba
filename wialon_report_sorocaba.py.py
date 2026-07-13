@@ -72,7 +72,7 @@ def dest_table_for_template(tid: int, resource_id: int | None = None) -> str:
     mapping = {
         43: "viagens",
         34: "ociosidade",
-        113: "rpm amarelo",
+        113: "rpm_amarelo",
         39: "rpm_vermelho",
         56: "kickdown",
         41: "velocidade_chuva_60km",
