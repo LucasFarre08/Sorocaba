@@ -55,7 +55,7 @@ echo ------------------------------------------>> "%LOGFILE%"
 echo Rodando Template %TPL% em %DATE% %TIME% >> "%LOGFILE%"
 echo Rodando Template %TPL%...
 
-py wialon_report_consigaz.py.py ^
+py wialon_report_sorocaba.py.py ^
   --token "%TOKEN%" ^
   --resource-id %RESOURCE% ^
   --template-id %TPL% ^
